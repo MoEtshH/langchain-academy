@@ -1,0 +1,21 @@
+name: langchain-academy
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip=23.0.1
+  - pip:
+    - python-dotenv
+    - langgraph
+    - langgraph-sdk
+    - langgraph-checkpoint-sqlite
+    - langsmith
+    - langchain-community
+    - langchain-core
+    - langchain-openai
+    - notebook
+    - tavily-python
+    - wikipedia
+    - trustcall
+    - langgraph-cli
+    - httpx<0.28
